@@ -20,6 +20,7 @@ body{
 }
 .name{
     color:white;
+    font-size: 30px;
 }
 .typical{
     color:tomato;
