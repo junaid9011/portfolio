@@ -3,7 +3,7 @@ import bag from '../../image/cover.jpg'
 
 const Project = () => {
     return (
-        <div className="text-center">
+        <div className="text-center mt-20">
         <h1 className="text-center head relative text-4xl text-medium text-red-600 mt-10">Projects</h1>        
         <div className="container  md:flex item-center justify-center my-4 mx-8">
             <div className=" h-auto mx-auto  md:m-4 grid-cols-1 grid-rows-3  rounded-md w-60 shadow hover:shadow-xl hover: transition duration-500 ease-in-out hover:  text-3xl transform hover:-translate-y-1 hover:scale-110">
