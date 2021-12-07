@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Navbar,Container,Nav} from 'react-bootstrap';
+// import {  Link } from 'react-router-dom';
 import './Header.css'; 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
   </Container>
   <Navbar.Collapse  className="ms-3 text-light me-1" id="responsive-navbar-nav">
     <Nav className="fs-4 text-light ">
-    <Nav.Link className="fs-4 text-light " href="about">About</Nav.Link>
+    <Nav.Link  className="fs-4 text-light " href="about">About</Nav.Link>
       <Nav.Link className="fs-4 text-light " href="#pricing">Skills</Nav.Link>
       <Nav.Link className="fs-4 text-light " href="#deets">Projects</Nav.Link>
       <Nav.Link className="fs-4 text-light " eventKey={2} href="#memes">

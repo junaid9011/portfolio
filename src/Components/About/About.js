@@ -16,14 +16,14 @@ const About = () => {
                 <img src={jnd} data-aos="zoom-out" className="mx-auto mb-4  w-1/2" alt=""  />
                 </div>
                 <div data-aos="zoom-out" className="md:w-2/3 text-center md:mt-0 ">
-                <h1 className="text-center md:text-left ml-4">I'm Junaid Ahmed</h1>
+                <h1 className=" md:text-left      ml-4">I'm Junaid Ahmed</h1>
                  <div className="text-xl">
                  <p className=" mr-4 md:text-justify px-3 ">A <span className="highlight">Front-end Web Developer.</span>
                  <br />
                  <br />
                   Expertise at <span className="highlight">HTML, CSS, BOOTSRAP, TailWindCSS</span>
                   <br />
-                  <br />
+                  <br />    
                   Comfortable at <span className="highlight">JavaScript, React JS</span>
                   <br />
                   <br />
