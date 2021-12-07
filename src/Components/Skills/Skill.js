@@ -3,7 +3,7 @@ import './Skill.css'
 const Skill = () => {
     return (
         <div>
-                <h1 className="text-center head relative text-4xl text-medium text-red-600 mt-10">Skills</h1>
+                <h1 className="text-center head relative text-4xl text-medium  mt-10">Skills</h1>
             
             <div className=" md:w-1/2 mx-auto skills shadow-md   ">
                 <h3 className="skill html my-4 relative">HTML <small className="ml-4 text-red-400">90%</small></h3>

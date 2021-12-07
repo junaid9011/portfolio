@@ -10,7 +10,7 @@ const About = () => {
     return (
        <div data-aos="fade-up">
             <div className="  md:pt-50 md:mt-40 block">
-            <h1 className="text-center relative mb-5 head ">About</h1>
+            <h1 className="text-center head relative text-4xl text-medium  mt-10 ">About</h1>
             <div  className="md:flex justify-evenly md:mt-4">
                 <div className="items-center">
                 <img src={jnd} data-aos="zoom-out" className="mx-auto mb-4  w-1/2" alt=""  />
