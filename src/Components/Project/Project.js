@@ -11,7 +11,7 @@ const Project = () => {
                     <img src={bag} className=" image w-full h-60" alt="" />
                 </div>
                 <div className=" w-60 my-2">
-                    <h1 className=" text-2xl font-medium text-gray-600">RonginBakso</h1>
+                    <h1 className=" text-2xl font-medium text-gray-600">GoBazar</h1>
                 </div>
                 <div className="">
                     <button className=" text-white bg-red-600 h-10 w-11/12 text-align-center  rounded-md mb-4 border hover:text-red-500 hover:bg-white hover:border-red-500">Demo</button>
@@ -24,7 +24,7 @@ const Project = () => {
                 <img src={bag} className=" image w-full h-60" alt="" />
             </div>
             <div className=" w-60 my-2">
-                <h1 className=" text-2xl font-medium text-gray-600">GoBazar</h1>
+                <h1 className=" text-2xl font-medium text-gray-600">Ronginbakso</h1>
             </div>
             <div className="">
                 <button className=" text-white bg-red-600 h-10 w-11/12 align-middle  rounded-md mb-4 border hover:text-red-500 hover:bg-white hover: border-red-500"><a href="https://rongginbakso.netlify.app/" rel="noreferrer" target="_blank">Demo</a>
