@@ -27,8 +27,8 @@ const Project = () => {
                 <h1 className=" text-2xl font-medium text-gray-600">GoBazar</h1>
             </div>
             <div className="">
-                <button className=" text-white bg-red-600 h-10 w-11/12 align-middle  rounded-md mb-4 border hover:text-red-500 hover:bg-white hover: border-red-500"><a href="https://rongginbakso.netlify.app/" rel="noreferrer" target="_blank">Demo</a>
-                </button>
+                <a className=" text-white bg-red-600 h-10 w-11/12 align-middle  rounded-md mb-4 border hover:text-red-500 hover:bg-white hover: border-red-500" href="https://rongginbakso.netlify.app/" rel="noreferrer" target="_blank">Demo</a>
+               
             </div>
         </div>
              {/* end of 2nd card */}
