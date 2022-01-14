@@ -8,7 +8,7 @@ const About = () => {
         Aos.init({ duration: 2000 });
     }, [])
     return (
-       <div data-aos="fade-up">
+       <div id="about-section" data-aos="fade-up">
             <div className="  md:pt-50 md:mt-40 block">
             <h1 className="text-center head relative text-4xl text-medium  mt-10 mb-4 ">About</h1>
             <div  className="md:flex justify-evenly md:mt-4">

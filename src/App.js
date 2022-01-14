@@ -16,6 +16,7 @@ function App() {
       <Skill/>
       <Project/>
       <Footer/>
+      
     </div>
   );
 }
