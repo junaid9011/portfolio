@@ -1,8 +1,9 @@
 import React from 'react';
 import rb from '../../image/rb.jpg'
 import cover from '../../image/cover.jpg'
+import EC from '../../image/Ecommerce Site.png'
 const project=[
-    {id:1, name:'Ecommerce',img:"https://www.awesomescreenshot.com/image/21462124?key=5c35158d13731b84c73f150562db7b5b"},
+    {id:1, name:'Ecommerce',img:EC},
     {id:1, name:'RongginBakso',img:rb},
     {id:1, name:'Meal',img:cover}
 ]
