@@ -22,10 +22,10 @@ const About = () => {
                  <p className=" mr-4 md:text-justify px-3 ">A <span className="highlight">Front-end Web Developer.</span>
                  <br />
                  <br />
-                  Expertise at <span className="highlight">HTML, CSS, BOOTSRAP, TailWindCSS</span>
+                  Expertise at <span className="highlight">HTML, CSS, BOOTSRAP, TailWindCSS,MATERIAL UI</span>
                   <br />
                   <br />    
-                  Comfortable at <span className="highlight">JavaScript, React JS</span>
+                  Comfortable at <span className="highlight">JavaScript, React JS,Redux</span>
                   <br />
                   <br />
                   Familer With <span className="highlight">Node JS, Experss JS, MongoDB, Mongoose</span> etc.

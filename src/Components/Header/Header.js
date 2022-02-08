@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Navbar,Container,Nav} from 'react-bootstrap';
 // import {  Link } from 'react-router-dom';
+import cv from '../../image/cv-web.pdf'
 import './Header.css'; 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -28,8 +29,8 @@ const Header = () => {
     <Nav.Link  className="fs-4 text-light " href="#about-section">About<span className="sr-only">(current)</span></Nav.Link>
       <Nav.Link className="fs-4 text-light " href="#skill-section">Skills</Nav.Link>
       <Nav.Link className="fs-4 text-light " href="#project-section">Projects</Nav.Link>
-      <Nav.Link className="fs-4 text-light " eventKey={2} href="#memes">
-        Contact
+      <Nav.Link className="fs-4 text-light " eventKey={2} href={cv} download="resume">
+        <span className=" bg-green-600 p-2 rounded " >Resume</span>
       </Nav.Link>
     </Nav>
     
