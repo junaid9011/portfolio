@@ -16,7 +16,7 @@ const About = () => {
                 <img src={jnd} data-aos="zoom-out" className="mx-auto mb-4  w-1/2" alt=""  />
                 </div>
                 <div data-aos="zoom-out" className="md:w-2/3 text-center md:mt-0 ">
-                <h1 className=" md:text-left font-large ml-4">I'm Junaid Ahmed</h1>
+                <h1 className=" md:text-left font-large text-2xl ml-4">I'm Junaid Ahmed</h1>
                 <br />
                  <div className="text-xl">
                  <p className=" mr-4 md:text-justify px-3 ">A <span className="highlight">Front-end Web Developer.</span>
