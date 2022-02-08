@@ -30,7 +30,7 @@ const Header = () => {
       <Nav.Link className="fs-4 text-light " href="#skill-section">Skills</Nav.Link>
       <Nav.Link className="fs-4 text-light " href="#project-section">Projects</Nav.Link>
       <Nav.Link className="fs-4 text-light " eventKey={2} href={cv} download="resume">
-        <span className=" bg-green-600 p-2 rounded " >Resume</span>
+        <span className=" bg-red-400 p-2 rounded " >Resume</span>
       </Nav.Link>
     </Nav>
     
