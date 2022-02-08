@@ -15,14 +15,15 @@
 }
 .skills{
     margin-top: 10px;
-    height: 430px;
+    height: 500px;
+    background-color: white;
     /* border: .5px solid gray; */
     border-radius: 20px;
     /* box-shadow: 10px ; */
     
 }
 skill-container{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .skill{
 
@@ -118,6 +119,14 @@ skill-container{
 @keyframes react {
     to{
         width: 65%;
+    }
+}
+.redux::after{
+    animation-name: redux;
+}
+@keyframes redux {
+    to{
+        width: 60%;
     }
 }
 .node::after{
