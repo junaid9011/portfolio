@@ -3,7 +3,7 @@ import rb from '../../image/rb.jpg'
 import todo from '../../image/todo.jpg'
 import EC from '../../image/Ecommerce Site.png'
 const project=[
-    {id:1, name:'Ecommerce',img:EC,url:"https://ecommerce-x5.netlify.app/",description:"An E-commerce website"},
+    {id:1, name:'Ecommerce',img:EC,url:"https://ecommerce-x5.netlify.app/",description:"An MERN Stack  E-commerce website"},
     {id:2, name:'RongginBakso',img:rb,url:"https://rongginbakso.netlify.app/",description:"A Social Organization website"},
     {id:3, name:'To-do List',img:todo,url:"https://to-do-x5.netlify.app",description:" A Productive To do List Website "}
 ]
