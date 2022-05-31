@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Navbar,Container,Nav} from 'react-bootstrap';
 // import {  Link } from 'react-router-dom';
-import cv from '../../image/Resume of Junaid.pdf'
+import cv from '../../image/Resume Of Junaid.pdf'
 import './Header.css'; 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
