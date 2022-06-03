@@ -9,13 +9,16 @@ const Skill = () => {
         { id: 2, name: "CSS", percentage: 90 },
         { id: 3, name: "BOOTSTRAP", percentage: 80 },
         { id: 4, name: "TAILWIND CSS", percentage: 85 },
-        { id: 5, name: "REACT", percentage: 85 },
-        { id: 6, name: "REDUX", percentage: 80 },
-        { id: 7, name: "NODE JS", percentage: 80 },
-        { id: 7, name: "EXPRESS JS", percentage: 90 },
-        { id: 9, name: "MONGO DB", percentage: 80 },
-        { id: 10, name: "FIREBASE", percentage: 75 },
-        { id: 11, name: "MATERIAL UI", percentage: 70 },
+        { id: 5, name: "JavaScript", percentage: 85 },
+        { id: 6, name: "TypeScript", percentage: 60 },
+        { id: 7, name: "NEXT JS", percentage: 60 },
+        { id: 8, name: "REACT", percentage: 85 },
+        { id: 9, name: "REDUX", percentage: 80 },
+        { id: 10, name: "NODE JS", percentage: 80 },
+        { id: 11, name: "EXPRESS JS", percentage: 90 },
+        { id: 12, name: "MONGO DB", percentage: 80 },
+        { id: 13, name: "FIREBASE", percentage: 75 },
+        { id: 14, name: "MATERIAL UI", percentage: 70 },
 
     ]
     return (
