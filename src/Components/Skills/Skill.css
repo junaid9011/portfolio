@@ -4,12 +4,26 @@
     grid-template-columns: repeat(6, 1fr);
     column-gap: 0;
 }
+.skill-box{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 60px;
+    width: 80%;
+    margin:auto ;
+}
 
 
 @media screen and (max-width:425px) {
     .skills{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .skill-box{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        /* width: 60%; */
+        
     }
 
 }
