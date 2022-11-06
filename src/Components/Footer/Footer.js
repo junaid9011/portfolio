@@ -6,7 +6,7 @@ const Footer = () => {
 
             <div className=" mt-4 text-center pt-4 bg-gray-900">
                 <h1 className="text-center   relative text-4xl text-medium text-red-500 mt-10">Get In Touch</h1>
-                <form action="" name='contact' method="post" data-netlify="true">
+                <form action="" name='contact' value='contact' method="post" data-netlify="true">
                     <input className=" mt-10 md:w-96 rounded leading-8 py-2 border-2  " type="text" placeholder=" Enter Your Name" />
                     <br />
                     <input className=" mt-10 md:w-96 rounded leading-8 border-2 py-2  " type="text" placeholder=" Enter Your Email" />
