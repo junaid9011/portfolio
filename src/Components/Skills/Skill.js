@@ -3,6 +3,7 @@ import './Skill.css'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { useState } from 'react';
+import { Fade} from 'react-reveal';
 const Skill = () => {
 
     
@@ -42,11 +43,13 @@ const Skill = () => {
     // console.log(selectedSkills)
     return (
         <div id='skill-section' className='mt-20 pt-12 bg-gray-100 pb-8'>
-            <h1 className="text-center  relative text-4xl text-medium text-red-500 mt-10 pb-12">SKILLS</h1>
+           <Fade top> <h1 className="text-center  relative text-4xl text-medium text-red-500 mt-10 pb-12">SKILLS</h1></Fade>
             <div className="skill-box">
+                <Fade bottom>
                 <div className="text center mx-auto "><button onClick={() => handleSkill('programming')} className={isActive==='programming'?' text-red-500 font-medium text-xl':' text-black font-medium'}>Programming</button></div>
                 <div className="text center mx-auto"><button onClick={() => handleSkill('web')} className={isActive==='web'?' text-red-500 font-medium text-xl':' text-black font-medium'}>Web</button></div>
                 <div className="text center mx-auto"><button onClick={() => handleSkill('tool')} className={isActive==='tool'?' text-red-500 font-medium ':' text-black font-medium'}>Tools</button></div>
+                </Fade>
             </div>
             <div className="md:flex justify-center skills">
                 {

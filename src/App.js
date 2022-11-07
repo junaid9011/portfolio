@@ -6,6 +6,7 @@ import Skill from './Components/Skills/Skill';
 import About from './Components/About/About';
 import Project from './Components/Project/Project';
 import Footer from './Components/Footer/Footer';
+// import Certificate from './Components/Certificates';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Intro/>
       <About/>
       <Skill/>
+      {/* <Certificate/> */}
       <Project/>
       <Footer/>
       
