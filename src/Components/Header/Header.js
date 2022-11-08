@@ -28,6 +28,7 @@ const Header = () => {
     <Nav className="fs-4 text-light ">
     <Nav.Link  className="fs-4 text-light " href="#about-section">About<span className="sr-only">(current)</span></Nav.Link>
       <Nav.Link className="fs-4 text-light " href="#skill-section">Skills</Nav.Link>
+      <Nav.Link className="fs-4 text-light " href="#achievement-section">Achievement</Nav.Link>
       <Nav.Link className="fs-4 text-light " href="#project-section">Projects</Nav.Link>
       <Nav.Link className="fs-4 text-light " eventKey={2} href={cv} download="resume">
         <span className=" bg-red-500 p-2 rounded " >Resume</span>

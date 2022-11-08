@@ -1,8 +1,9 @@
+
 /*PEN STYLES*/
 
-* {
-    box-sizing: border-box;
-  }
+// * {
+//     box-sizing: border-box;
+//   }
   
 
   
@@ -51,7 +52,7 @@
     }
     .details,
     .details ul {
-      margin: auto;
+      // margin: auto;
       padding: 0;
       list-style: none;
     }
@@ -68,17 +69,17 @@
       padding: 10px;
       width: 100%;
       font-size: .9rem;
-      a {
-        text-decoration: dotted underline
-      }
+      // a {
+      //   // text-decoration: none
+      // }
       ul li {
         display: inline-block;
       }
-      .author:before {
-        font-family: FontAwesome;
-        margin-right: 10px;
-        content: "\f007";
-      }
+      // .author:before {
+      //   font-family: FontAwesome;
+      //   margin-right: 10px;
+      //   content: "\f007";
+      // }
   
       .date:before {
         font-family: FontAwesome;
@@ -127,14 +128,14 @@
           color: $color_prime;
           display: inline-block;
           position: relative;
-          &:after {
-            content: "\f061";
-            font-family: FontAwesome;
-            margin-left: -10px;
-            opacity: 0;
-            vertical-align: middle;
-            transition: margin .3s, opacity .3s;
-          }
+          // &:after {
+          //   content: "\f061";
+          //   font-family: sans-serif;
+          //   margin-left: -10px;
+          //   opacity: 0;
+          //   vertical-align: middle;
+          //   transition: margin .3s, opacity .3s;
+          // }
   
           &:hover:after {
             margin-left: 5px;
