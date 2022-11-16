@@ -23,7 +23,8 @@ const Project = () => {
             {/* <div className="container  mb-20 my-10 "> */}
             {
                 project.map(item=>
-                    <div className={(item.id%2===0)?"blog-card":"blog-card alt"}>
+                    <Fade bottom>
+                      <div className={(item.id%2===0)?"blog-card":"blog-card alt"}>
                       <div className="meta">
                         <div className="photo" style={{backgroundImage:`url(${item?.img})`}} ></div>
                          
@@ -47,6 +48,7 @@ const Project = () => {
                         </p>
                       </div>
                     </div>
+                    </Fade>
                 )
             }
                    

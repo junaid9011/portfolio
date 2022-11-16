@@ -6,8 +6,8 @@ import './About.css'
 const About = () => {
     
     return (
-        <div id="about-section" data-aos="fade-up" className='pt-2'>
-            <div className="  md:pt-50 md:mt-32 block">
+        <div id="about-section" className='pt-12'>
+            <div className="  md:pt-50 md:mt-10 block">
                 <Fade bottom className="">
                 <h1 className="text-center shadows relative text-4xl text-medium text-red-500  mb-10  ">ABOUT ME</h1>
                 </Fade>

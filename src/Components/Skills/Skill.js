@@ -42,7 +42,7 @@ const Skill = () => {
     // },[skill])
     // console.log(selectedSkills)
     return (
-        <div id='skill-section' className='mt-20 pt-12 bg-gray-100 pb-8'>
+        <div id='skill-section' className=' pt-12 bg-gray-100 pb-8'>
            <Fade top> <h1 className="text-center  relative text-4xl text-medium text-red-500 mt-10 pb-12">SKILLS</h1></Fade>
             <div className="skill-box">
                 <Fade bottom>
