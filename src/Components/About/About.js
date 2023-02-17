@@ -1,11 +1,14 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
-import jnd from '../../image/Junaid.JPG'
-
+import cv from '../../image/cv.pdf'
 import './About.scss'
 const About = () => {
+const handleClick=()=>{
+    console.log('clicked')
+}
 
     return (
+
         <div id="about-section" className='pt-12'>
             <div className="  md:pt-50 md:mt-10 mb-16 block">
                 <Fade bottom className="">
@@ -25,9 +28,14 @@ const About = () => {
                             <div class="desc"> A Full Stack Web Developer at <span className='text-red-500 font-bold'>NETSOFTUK</span>. I love to work with my passion. I love to face new things and explore them. Problem Solving while working attracts me a lot.I'm dedicated to my job
 
                                 Besides, I'm a Traveler and Photographer
-                                </div>
-                            <div class="actions">
-                                <button>Hire me</button>
+                            </div>
+                            <div class="actions md:ml-4">
+                                <a href='mailto:junaid.cou@gmail.com' class=" no-underline bg-red-500 text-white font-bold py-2 px-4 rounded-full">
+                                    Hire me
+                                </a>
+                                <a href={cv} download="resume" class=" hover:text-red-500 no-underline md:ml-4 bg-transparent hover:bg-red-500 text-red-500 border-1 border-red-500 font-bold py-2 px-4 rounded-full">
+                                    Resume
+                                </a>
                             </div>
                         </div>
 
