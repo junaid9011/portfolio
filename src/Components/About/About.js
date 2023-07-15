@@ -25,15 +25,16 @@ const handleClick=()=>{
                             <p class="title">Full Stack Web Developer</p>
                             <h2>Junaid Ahmed</h2>
 
-                            <div class="desc"> A Full Stack Web Developer at <span className='text-red-500 font-bold'>NETSOFTUK</span>. I love to work with my passion. I love to face new things and explore them. Problem Solving while working attracts me a lot.I'm dedicated to my job
+                            <div class="desc"> A Full Stack Web Developer at <span className='text-red-500 font-bold'>DREAMMATE</span>. <span className='hidden md:block'> I love to work with my passion. I love to face new things and explore them. Problem Solving while working attracts me a lot.I'm dedicated to my job
 
-                                Besides, I'm a Traveler and Photographer
+                                Besides, I'm a Traveler and Photographer</span>
                             </div>
-                            <div class="actions md:ml-4">
-                                <a href='mailto:junaid.cou@gmail.com' class=" no-underline bg-red-500 text-white font-bold py-2 px-4 rounded-full">
+                            <div class=" md:ml-4 md:mt-2">
+                                <a href='mailto:junaid.cou@gmail.com' class="block md:inline no-underline bg-red-500 text-white font-bold py-2 px-4 rounded-full">
                                     Hire me
                                 </a>
-                                <a href={cv} download="resume" class=" hover:text-red-500 no-underline md:ml-4 bg-transparent hover:bg-red-500 text-red-500 border-1 border-red-500 font-bold py-2 px-4 rounded-full">
+                                <div className='block md:hidden mx-4 px-4'></div>
+                                <a href={cv} download="resume" class=" hover:text-red-500 no-underline block md:inline mt-4 md:mt-0 md:ml-4 bg-transparent hover:bg-red-500 text-red-500 border-1 border-red-500 font-bold py-2 px-4 rounded-full">
                                     Resume
                                 </a>
                             </div>
