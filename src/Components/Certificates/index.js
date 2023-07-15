@@ -10,7 +10,7 @@ const Certificate = () => {
         <div className='card mx-auto sm:ml-16 '>
           <div className='info'>
             <h1 className='title'>AWS Cloud Technical Essentials</h1>
-            <p className='description'>I've completed this course and gain the fundamental knowledge about AWS. It's the first one of AWS DevOps Specialization Course <span className='block'><a className=' no-underline text-red-500' target='_blank' href="https://coursera.org/verify/2D42XP87DUHP" rel='noreferrer'>Verify Certificate</a></span></p>
+            <p className='description'>I've completed this course and gain the fundamental knowledge about AWS. It's the first one of AWS DevOps Specialization Course <span className='block mt-2 '><a className=' no-underline bg-red-500 text-white font-bold py-2 px-2 rounded' target='_blank' href="https://coursera.org/verify/2D42XP87DUHP" rel='noreferrer'>Verify Certificate</a></span></p>
           </div>
         </div>
       </Fade>

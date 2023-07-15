@@ -46,9 +46,9 @@ const Skill = () => {
            <Fade top> <h1 className="text-center  relative text-4xl text-medium text-red-500 mt-10 pb-12">SKILLS</h1></Fade>
             <div className="skill-box">
                 <Fade bottom>
-                <div className="text center mx-auto "><button onClick={() => handleSkill('programming')} className={isActive==='programming'?' text-red-500 font-medium text-xl':' text-black font-medium'}>Programming</button></div>
-                <div className="text center mx-auto"><button onClick={() => handleSkill('web')} className={isActive==='web'?' text-red-500 font-medium text-xl':' text-black font-medium'}>Web</button></div>
-                <div className="text center mx-auto"><button onClick={() => handleSkill('tool')} className={isActive==='tool'?' text-red-500 font-medium ':' text-black font-medium'}>Tools</button></div>
+                <div className="text center mx-auto "><button onClick={() => handleSkill('programming')} className={isActive==='programming'?' bg-red-500 text-white py-2 px-2 rounded':' text-black font-medium py-2 px-2'}>Programming</button></div>
+                <div className="text center mx-auto"><button onClick={() => handleSkill('web')} className={isActive==='web'?' bg-red-500 text-white py-2 px-2 rounded':' text-black font-medium py-2 px-2'}>Web</button></div>
+                <div className="text center mx-auto"><button onClick={() => handleSkill('tool')} className={isActive==='tool'?' bg-red-500 text-white py-2 px-2 rounded':' text-black font-medium py-2 px-2'}>Tools</button></div>
                 </Fade>
             </div>
             <div className="md:flex justify-center skills">
