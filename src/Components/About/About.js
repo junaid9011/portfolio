@@ -3,9 +3,7 @@ import { Fade } from 'react-reveal';
 import cv from '../../image/cv.pdf'
 import './About.scss'
 const About = () => {
-const handleClick=()=>{
-    console.log('clicked')
-}
+
 
     return (
 
